@@ -33,7 +33,7 @@ context('Pin', () => {
 
         // Other sum
         cy.get('.button-grid > :nth-child(6)').click();
-        cy.get('.form-input').type("500");
+        cy.get('.form-input').type("1000");
 
         cy.get('.modal__content__buttons > :nth-child(1)').click();
 

@@ -16,6 +16,7 @@ context('Login', () => {
         // cy.get(".button-up.button-up__signup").click();
 
         cy.get(".modal__content__buttons__button.modal__content__buttons__button__ok.change-color-button").click();
+
         cy.get(".button-up.button-up__signup").click();
 
         cy.url().should('eq', consts.homeUrl + "/home/account/sign-in");
